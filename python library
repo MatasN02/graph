@@ -8,3 +8,15 @@ print(f"Number at index 5: {number_at_index_5}")
 # Get all numbers in the library
 all_numbers = my_library.get_all_numbers()
 print("All numbers in the library:", all_numbers)
+class NumberLibrary:
+    def __init__(self):
+        self.numbers = list(range(1, 101))
+
+    def get_number(self, index):
+        if 1 <= index <= 100:
+            return self.numbers[index - 1]
+        else:
+            return None
+
+    def get_all_numbers(self):
+        return self.numbers
