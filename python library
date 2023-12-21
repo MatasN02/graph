@@ -1,0 +1,10 @@
+# Create an instance of the NumberLibrary class
+my_library = NumberLibrary()
+
+# Get a specific number by index
+number_at_index_5 = my_library.get_number(5)
+print(f"Number at index 5: {number_at_index_5}")
+
+# Get all numbers in the library
+all_numbers = my_library.get_all_numbers()
+print("All numbers in the library:", all_numbers)
