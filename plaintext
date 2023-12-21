@@ -1,0 +1,6 @@
+my_project/
+├── my_module/
+│   ├── __init__.py
+│   └── graph_operations.py
+├── main_script.py
+└── venv/  # (Optional: Virtual environment)
